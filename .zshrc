@@ -33,7 +33,6 @@ unset conf
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export BAT_THEME="One Dark"
-
+export BAT_THEME="Catppuccin Macchiato"
 
 # alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
