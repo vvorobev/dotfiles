@@ -7,7 +7,6 @@ fi
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-source $ZSH/oh-my-zsh.sh
 
 # Plugins
 plugins=(git git-commit zsh-autosuggestions zsh-syntax-highlighting)
@@ -35,4 +34,7 @@ unset conf
 
 export BAT_THEME="Catppuccin Macchiato"
 
-# alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
+source $ZSH/oh-my-zsh.sh
+
+alias ls="eza --color=always --icons=always"
